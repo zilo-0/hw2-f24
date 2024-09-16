@@ -73,12 +73,18 @@ div {
     background-color: #0000FF;
     /* Hex for blue */
     color: #C4C4C4;
-    /* Fix contrast */
+    /* Contrast fix */
     text-align: left;
     margin-right: 50px;
     border-right: 5px solid #FFFFFF;
     border-top: 2px solid #FFFFFF;
 }
+
+.blue h2 {
+    color: #C4C4C4;
+    /* Fix contrast for h2 in blue div */
+}
+
 
 /* Yellow class */
 .yellow {
@@ -94,8 +100,8 @@ div {
 
 /* Green class */
 .green {
-    background-color: #00EB00;
-    /* Hex for green */
+    background-color: #028500;
+    /* Updated hex for green */
     text-align: left;
     margin-right: 50px;
     border-right: 5px solid #FFFFFF;
