@@ -1,12 +1,9 @@
 /* Global Styles */
 body {
     font-family: Arial, Verdana, sans-serif;
-    background-color: #000000;
-    /* Black background */
-    color: #FFFFFF;
-    /* White text */
-    margin: 20px 20px 0 20px;
-    /* 20px margin top and sides, none on the bottom */
+    background-color: #000000; /* Black background */
+    color: #FFFFFF; /* White text */
+    margin: 20px 20px 0 20px; /* 20px margin top and sides, none on the bottom */
 }
 
 /* h1 heading */
@@ -19,99 +16,78 @@ h1 {
 /* h2 heading */
 h2 {
     font-size: 30px;
-    color: #0D0D0D;
-    /* Dark gray */
+    color: #0D0D0D; /* Dark gray */
 }
 
 /* Paragraph styles */
 p {
     font-size: 24px;
-    padding: 10px 0 0 10px;
-    /* Padding on top and left */
+    padding: 10px 0 0 10px; /* Padding on top and left */
 }
 
 /* Image styles */
 img {
-    width: 250px;
-    /* Set width only */
+    width: 250px; /* Set width only */
     display: block;
-    margin: 0 auto;
-    /* Center image */
-    border: 10px dashed #FFFFFF;
-    /* White dashed border */
+    margin: 0 auto; /* Center image */
+    border: 10px dashed #FFFFFF; /* White dashed border */
 }
 
 /* Default div styles */
 div {
-    min-height: 125px;
-    /* Flexible height */
+    min-height: 125px; /* Flexible height */
     padding: 20px;
-    border: 3px solid #FFFFFF;
-    /* Solid white border */
+    border: 3px solid #FFFFFF; /* Solid white border */
 }
 
 /* Introduction class */
 .introduction {
     border-radius: 15px;
     margin-top: 15px;
-    line-height: 2;
-    /* Double spaced text */
+    line-height: 2; /* Double spaced text */
 }
 
 /* Red class */
 .red {
-    background-color: #FF0000;
-    /* Hex for red */
+    background-color: #FF0000; /* Hex for red */
     text-align: right;
     margin-left: 50px;
-    border-bottom: 2px solid #FFFFFF;
-    border-left: 5px solid #FFFFFF;
+    border-bottom: 2px solid #FFFFFF; /* Specific border for bottom */
+    border-left: 5px solid #FFFFFF;  /* Specific border for left */
 }
 
 /* Blue class */
 .blue {
-    background-color: #0000FF;
-    /* Hex for blue */
-    color: #C4C4C4;
-    /* Contrast fix */
+    background-color: #0000FF; /* Hex for blue */
+    color: #C4C4C4; /* Contrast fix */
     text-align: left;
     margin-right: 50px;
-    border-right: 5px solid #FFFFFF;
-    border-top: 2px solid #FFFFFF;
+    border-right: 5px solid #FFFFFF; /* Specific border for right */
+    border-top: 2px solid #FFFFFF;   /* Specific border for top */
 }
-
-.blue h2 {
-    color: #C4C4C4;
-    /* Fix contrast for h2 in blue div */
-}
-
 
 /* Yellow class */
 .yellow {
-    background-color: #FFFF00;
-    /* Hex for yellow */
-    color: #707070;
-    /* Fix contrast */
+    background-color: #FFFF00; /* Hex for yellow */
+    color: #707070; /* Fix contrast */
     text-align: right;
     margin-left: 50px;
-    border-bottom: 2px solid #FFFFFF;
-    border-left: 5px solid #FFFFFF;
+    border-bottom: 2px solid #FFFFFF; /* Specific border for bottom */
+    border-left: 5px solid #FFFFFF;   /* Specific border for left */
 }
 
 /* Green class */
 .green {
-    background-color: #028500;
-    /* Updated hex for green */
+    background-color: #028500; /* Updated hex for green */
     text-align: left;
     margin-right: 50px;
-    border-right: 5px solid #FFFFFF;
-    border-top: 2px solid #FFFFFF;
+    border-right: 5px solid #FFFFFF; /* Specific border for right */
+    border-top: 2px solid #FFFFFF;   /* Specific border for top */
 }
 
 /* Footer styles */
 footer {
-    background: linear-gradient(90deg, #000000, #0000FF 25%, #0066FF 70%, #000000);
-    /* Gradient background */
+    background: linear-gradient(90deg, #000000, #0000FF 25%, #0066FF 70%, #000000); /* Gradient background */
     border: 5px solid #FFFFFF;
     padding: 15px;
 }
